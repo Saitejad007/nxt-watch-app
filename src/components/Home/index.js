@@ -100,7 +100,7 @@ class Home extends Component {
     return (
       <AppContext.Consumer>
         {value => {
-          const {darkTheme, navId} = value
+          const {darkTheme} = value
 
           const renderSuccessView = () => {
             if (videosList.length > 0) {

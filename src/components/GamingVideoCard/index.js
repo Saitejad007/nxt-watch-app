@@ -1,12 +1,5 @@
 import AppContext from '../../Context/AppContext'
-import {
-  LinkTo,
-  ListItem,
-  Heading,
-  Container,
-  Text,
-  Image,
-} from './GamingVideoCardStyles'
+import {LinkTo, ListItem, Heading, Text, Image} from './GamingVideoCardStyles'
 
 const GamingVideoCard = props => {
   const {videoDetails} = props

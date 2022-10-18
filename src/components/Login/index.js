@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import {Component} from 'react'
 import './index.css'
 
@@ -134,6 +135,14 @@ class Login extends Component {
             {showSubmitError && <p className="error-message">*{errorMsg}</p>}
           </form>
         </div>
+
+        <p className="hint">
+          This is a Public API. Use either [UserName(Prime-user)/pwd:
+          &apos;rahul&apos;/&apos;rahul@2021&apos;, UserName(non-Prime
+          user)/pwd: &apos;raja&apos;/&apos;raja@2021&apos;]
+        </p>
+        {/* <p>Website under maintenance, sorry for the inconvenience caused.</p>
+        <p>Please try again after sometime!</p> */}
       </div>
     )
   }

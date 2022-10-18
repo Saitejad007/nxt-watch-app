@@ -20,7 +20,7 @@ const TrendingVideoCard = props => {
     publishedAt,
     channel,
   } = videoDetails
-  const {name, profileImageUrl} = channel
+  const {name} = channel
   return (
     <AppContext.Consumer>
       {value => {

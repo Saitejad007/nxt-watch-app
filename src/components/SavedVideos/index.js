@@ -4,7 +4,6 @@ import {
   Container,
   VideoContainer,
   IconContainer,
-  Heading,
   SavedVideoContainer,
   ListContainer,
   Image,

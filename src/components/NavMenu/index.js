@@ -1,11 +1,9 @@
 import {Link} from 'react-router-dom'
 
-import {useState} from 'react'
 import {AiFillHome} from 'react-icons/ai'
 import {FaHotjar, FaGamepad} from 'react-icons/fa'
 import {MdPlaylistAdd} from 'react-icons/md'
-import Cookies from 'js-cookie'
-// import {PageLink} from './NavStyles'
+
 import './index.css'
 import AppContext from '../../Context/AppContext'
 

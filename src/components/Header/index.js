@@ -6,7 +6,7 @@ import {withRouter, Link} from 'react-router-dom'
 import AppContext from '../../Context/AppContext'
 import LogoutModal from '../LogoutModal'
 
-const Header = props => (
+const Header = () => (
   <AppContext.Consumer>
     {value => {
       const {darkTheme, changeTheme} = value
